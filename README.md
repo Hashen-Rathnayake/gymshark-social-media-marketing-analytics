@@ -52,14 +52,18 @@ Compared to Nike, how effective is Gymshark's social media strategy at engaging 
 - Product fit is the main customer concern, with slightly negative sentiment, followed by gym lifestyle
 - Product demand is the most discussed topic and rises and falls over time, likely tied to promotions and launches
 
+
 ![Topic modelling results](topic-modelling.png)
 *Four customer topics identified from Instagram comments*
+
 
 ![Sentiment analysis by topic](sentiment-analysis.png)
 *Sentiment by topic, from more negative to more positive*
 
+
 ![Topic proportion over time](topic-proportion-over-time.png)
 *How topic prevalence changes over time*
+
 
 ## Recommendations
 1. **Product-focused content:** publish product reviews, sizing guidance, try-on videos and authentic customer feedback to address the product fit concern
