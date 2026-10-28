@@ -2,7 +2,7 @@
 
 Competitor benchmarking of Gymshark against Nike on Instagram and X (07 Feb – 08 Mar 2026), combining engagement, reach and audience metrics with AI-assisted topic modelling and sentiment analysis in R to understand what customers say about the brand.
 
-📄 **[Read the full report (PDF)](report/Gymshark-Social-Media-Analytics-Report.pdf)**
+📄 **[Read the full report (PDF)](Gymshark-Social-Media-Analytics-Report.pdf)**
 
 ## Business Problem
 Compared to Nike, how effective is Gymshark's social media strategy at engaging its audience, and what do customers actually think of the brand?
@@ -34,6 +34,10 @@ Compared to Nike, how effective is Gymshark's social media strategy at engaging 
 
 ## Key Findings
 **Engagement and reach**
+
+![Instagram engagement: Gymshark vs Nike](instagram-engagement.png)
+*Total engagement (left) and engagement rate by followers (right)*
+
 - Nike has about 298M Instagram followers vs Gymshark's 8.4M, yet Gymshark's Instagram engagement rate is 0.30% vs Nike's 0.02%
 - On X, Gymshark's engagement rate is 0.44% vs Nike's 0.08%, despite 386K followers vs 9.6M
 - Gymshark's followers comment more: 14,803 comments vs Nike's 9,247, with comments making up 1.57% of its engagement against 0.77% for Nike
@@ -48,17 +52,13 @@ Compared to Nike, how effective is Gymshark's social media strategy at engaging 
 - Product fit is the main customer concern, with slightly negative sentiment, followed by gym lifestyle
 - Product demand is the most discussed topic and rises and falls over time, likely tied to promotions and launches
 
-## Visuals
-![Instagram engagement: Gymshark vs Nike](images/instagram-engagement.png)
-*Total engagement and engagement rate by followers*
-
-![Topic modelling results](images/topic-modelling.png)
+![Topic modelling results](topic-modelling.png)
 *Four customer topics identified from Instagram comments*
 
-![Sentiment analysis by topic](images/sentiment-analysis.png)
+![Sentiment analysis by topic](sentiment-analysis.png)
 *Sentiment by topic, from more negative to more positive*
 
-![Topic proportion over time](images/topic-proportion-over-time.png)
+![Topic proportion over time](topic-proportion-over-time.png)
 *How topic prevalence changes over time*
 
 ## Recommendations
