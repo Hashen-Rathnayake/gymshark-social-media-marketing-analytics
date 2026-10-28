@@ -33,7 +33,7 @@ Compared to Nike, how effective is Gymshark's social media strategy at engaging 
 - Linked the findings to the objectives, built a SWOT analysis and turned the insights into recommendations
 
 ## Key Findings
-**Engagement and reach**
+**1.Engagement and reach**
 
 ![Instagram engagement: Gymshark vs Nike](instagram-engagement.png)
 *Total engagement (left) and engagement rate by followers (right)*
@@ -42,12 +42,12 @@ Compared to Nike, how effective is Gymshark's social media strategy at engaging 
 - On X, Gymshark's engagement rate is 0.44% vs Nike's 0.08%, despite 386K followers vs 9.6M
 - Gymshark's followers comment more: 14,803 comments vs Nike's 9,247, with comments making up 1.57% of its engagement against 0.77% for Nike
 
-**Audience and growth**
+**2.Audience and growth**
 - Gymshark gained followers on both platforms while Nike lost them over the period
 - Gymshark's audience is concentrated in the UK and aged 18–35, while Nike targets wider European markets and ages 18–65+
 - Gymshark ran about 523 Instagram ads vs Nike's 227, relying heavily on image-based formats
 
-**Customer sentiment (topic modelling and sentiment analysis)**
+**3.Customer sentiment (topic modelling and sentiment analysis)**
 - Overall brand sentiment is positive, with "positive feedback" the most positive topic, showing strong eWOM
 - Product fit is the main customer concern, with slightly negative sentiment, followed by gym lifestyle
 - Product demand is the most discussed topic and rises and falls over time, likely tied to promotions and launches
