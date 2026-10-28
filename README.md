@@ -2,7 +2,7 @@
 
 Competitor benchmarking of Gymshark against Nike on Instagram and X (07 Feb – 08 Mar 2026), combining engagement, reach and audience metrics with AI-assisted topic modelling and sentiment analysis in R to understand what customers say about the brand.
 
-📄 **[Read the full report (PDF)](Gymshark-Social-Media-Analytics-Report.pdf)**
+📄 **[Read the full report (PDF)](Gymshark-Social-Media-Marketing-Analytics-Report.pdf)**
 
 ## Business Problem
 Compared to Nike, how effective is Gymshark's social media strategy at engaging its audience, and what do customers actually think of the brand?
