@@ -2,7 +2,7 @@
 
 Competitor benchmarking of Gymshark against Nike on Instagram and X (07 Feb – 08 Mar 2026), combining engagement, reach and audience metrics with AI-assisted topic modelling and sentiment analysis in R to understand what customers say about the brand.
 
-📄 **[Read the full report (PDF)](Gymshark-Social-Media-Marketing-Analytics-Report.pdf)**
+📄 **[Read the full report (PDF)](report/Gymshark-Social-Media-Marketing-Analytics-Report.pdf)**
 
 ## Business Problem
 Compared to Nike, how effective is Gymshark's social media strategy at engaging its audience, and what do customers actually think of the brand?
@@ -35,8 +35,10 @@ Compared to Nike, how effective is Gymshark's social media strategy at engaging 
 ## Key Findings
 **1.Engagement and reach**
 
-![Instagram engagement: Gymshark vs Nike](instagram-engagement.png)
-*Total engagement (left) and engagement rate by followers (right)*
+<p align="center">
+  <img src="images/instagram-engagement.png" alt="Total engagement (left) and engagement rate by followers (right)" width="700"><br>
+  <em>Total engagement (left) and engagement rate by followers (right)</em>
+</p>
 
 - Nike has about 298M Instagram followers vs Gymshark's 8.4M, yet Gymshark's Instagram engagement rate is 0.30% vs Nike's 0.02%
 - On X, Gymshark's engagement rate is 0.44% vs Nike's 0.08%, despite 386K followers vs 9.6M
@@ -49,26 +51,25 @@ Compared to Nike, how effective is Gymshark's social media strategy at engaging 
 
 **3.Customer sentiment (topic modelling and sentiment analysis)**
 - Overall brand sentiment is positive, with "positive feedback" the most positive topic, showing strong eWOM
+
+<p align="center">
+  <img src="images/sentiment-analysis.png" alt="Sentiment by topic, from more negative to more positive" width="700"><br>
+  <em>Sentiment by topic, from more negative to more positive</em>
+</p>
+  
 - Product fit is the main customer concern, with slightly negative sentiment, followed by gym lifestyle
+
+<p align="center">
+  <img src="images/topic-modelling.png" alt="Four customer topics identified from Instagram comments" width="700"><br>
+  <em>Four customer topics identified from Instagram comments</em>
+</p>
+
 - Product demand is the most discussed topic and rises and falls over time, likely tied to promotions and launches
 
-.
-
-![Topic modelling results](topic-modelling.png)
-*Four customer topics identified from Instagram comments*
-
-.
-
-![Sentiment analysis by topic](sentiment-analysis.png)
-*Sentiment by topic, from more negative to more positive*
-
-.
-
-![Topic proportion over time](topic-proportion-over-time.png)
-*How topic prevalence changes over time*
-
-.
-
+<p align="center">
+  <img src="images/topic-proportion-over-time.png" alt="How topic prevalence changes over time" width="700"><br>
+  <em>How topic prevalence changes over time</em>
+</p>
 
 ## Recommendations
 1. **Product-focused content:** publish product reviews, sizing guidance, try-on videos and authentic customer feedback to address the product fit concern
@@ -76,6 +77,23 @@ Compared to Nike, how effective is Gymshark's social media strategy at engaging 
 3. **Increase global audience:** create region-specific campaigns and content for wider age groups and international markets
 4. **Encourage user-generated content:** run fitness challenges and repost customer content to build on strong eWOM
 5. **Align content with key events:** tie content to seasonal trends and fitness events to lift engagement
+
+## Repository Structure
+```
+hotel-customer-satisfaction-r/
+├── README.md
+├── report/        ← full report
+├── script/        ← R code
+├── data/          ← Gymshark customer feedback dataset
+└── images/        ← charts used in this README
+```
+
+## How to Run
+1. Install R and RStudio
+2. Install the packages used in the script: `[sentimentr, stm, tm]`
+3. Download the `GymsharkFb.xlsx` dataset from the source above and keep the file in the `data/` folder
+4. Open `script/GymsharkFb.R` in RStudio
+5. Check that the file path at the top of the script matches your folder, then run it from top to bottom
 
 ## Author
 Hashen Rathnayake | [LinkedIn](https://www.linkedin.com/in/hashen-rathnayake-074885207/)
